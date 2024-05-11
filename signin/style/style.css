@@ -1,0 +1,21 @@
+img {
+    /* Рамка */
+    border: 5px solid #ddd;
+    border-radius: 10px;
+  
+    /* Тень */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    /* Отступы */
+    margin: 10px;
+  
+    /* Переход */
+    transition: 0.5s;
+  }
+  
+  img:hover {
+    /* Изменение рамки при наведении */
+    border-color: #3307e3;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
